@@ -121,4 +121,4 @@ python voice_chat_bot.py
 
 ### Windows環境における環境構築方法
 
-現在準備中です。しばらくお待ち下さい。
+[こちら](Windows.md)を参照してください。
