@@ -21,7 +21,7 @@ def record():
     global recording
     while True:
         if is_recording:
-            # 録音中の場合、0.5秒分の録音データを追加
+            # 録音中の場合、0.5秒分の録音データを追加（うまく録音できない場合は録音時間を調整してください）
             recording_chunk = sd.rec(int(0.5 * fs), samplerate=fs, channels=1)
             sd.wait()
             recording = np.append(recording, recording_chunk)
